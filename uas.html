@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href=".css"/>
+    <style>
+     #nama, #nim {
+        text-align   : center; 
+        font-size    : 18px;
+        font-family  : sans-serif;
+        color        : ;
+        padding      : 10px 20px;
+        border       : 2px solid orange;
+        cursor       : pointer;
+        border-radius: 10px;
+        background   : linear-gradient(to top, red, orange);
+        box-shadow   : 5px 5px 3px rgba(0,0,0,0.5);
+        user-select  : none;
+        text-decoration: none;
+    }
+    
+    #nilai {
+        text-align   : center; 
+        font-size    : 18px;
+        font-family  : sans-serif;
+        color        : ;
+        padding      : 10px 20px;
+        border       : 2px solid orange;
+        cursor       : pointer;
+        border-radius: 10px;
+        background   : linear-gradient(to top, green, lime);
+        box-shadow   : 5px 5px 3px rgba(0,0,0,0.5);
+        width        : 100px;
+        float        : ;
+        margin-bottom: ;
+    }
+    
+    input[type="button"], input[type="reset"] {
+        text-align   : center; 
+        font-size    : 18px;
+        font-family  : sans-serif;
+        color        : ;
+        padding      : 10px 20px;
+        border       : 2px solid orange;
+        cursor       : pointer;
+        border-radius: 10px;
+        background   : linear-gradient(to top, red, orange);
+        box-shadow   : 5px 5px 3px rgba(0,0,0,0.5);
+        user-select  : none;
+        text-decoration: none;
+    }
+
+    input[type="button"]:hover {
+        background   : linear-gradient(to bottom, red, orange);
+    }
+
+    input[type="button"]:active {
+        background   : linear-gradient(to right, lime, yellow);
+    }
+    input[type="text"] {
+        text-align   : center; 
+        font-size    : 18px;
+        font-family  : sans-serif;
+        color        : ;
+        padding      : 10px 20px;
+        border       : 2px solid orange;
+        cursor       : pointer;
+        border-radius: 10px;
+        background   : linear-gradient(to top, green, lime);
+        box-shadow   : 5px 5px 3px rgba(0,0,0,0.5);
+        user-select  : none;
+        text-decoration: none;
+        width        : 100px;
+    }
+    input[type="submit"] {
+        text-align   : center; 
+        font-size    : 18px;
+        font-family  : sans-serif;
+        color        : ;
+        padding      : 10px 20px;
+        border       : 2px solid orange;
+        cursor       : pointer;
+        border-radius: 10px;
+        background   : linear-gradient(to top, blue, cyan);
+        box-shadow   : 5px 5px 3px rgba(0,0,0,0.5);
+        user-select  : none;
+        text-decoration: none;
+        width        : 100px;
+    }
+    body {
+        text-align   : ; 
+        font-size    : 16px;
+        font-family  : sans-serif;
+    }
+    .biodata {
+     float  : right;
+    }
+    </style>
+    <script src="engine.js" async></script>
+</head>
+<body>
+    
+<form action="https://script.google.com/macros/s/AKfycbxnQ7IutIC2PeLbHM2E5gtz-8ODiULMnXpMqQkMHw/exec" method="POST" name="uts">
+
+<pre> 
+ <div class="biodata">
+    <input type="text" name="tanggal" placeholder="dd-mm-yyyy"/>
+    <input type="text" name="name" placeholder="Nama Anda"/>
+    <input type="text" name="nim" placeholder="NIM"/>
+    <input type="text" name="semester" placeholder="Semester"/>
+    <input type="hidden" name="matkul" value="SIM (UAS)">
+  </div>
+<h2>Soal Pilihan Ganda (UAS)</h2>
+<p>Pilih Satu (1) Jawaban Yang Anda Anggap Benar!</p>      
+
+<ol>
+<li>Contoh klasifikasi sistem ...
+<select name="item1">
+ <option value="">Pilih Jawaban</option>
+ <option value="item1a">Berbayar</option>
+ <option value="item1b">Gratis</option>
+ <option value="item1c">Trial</option>
+ <option value="item1d">Buatan & Alami</option>
+</select>
+</li>
+
+<li>Sistem alamiah berasal dari ...
+<select name="item2">
+<option value="">Pilih Jawaban</option>
+<option value="item2a">Alam</option>
+<option value="item2b">Manusia</option>
+<option value="item2c">Mesin</option>
+<option value="item2d">C dan D Benar</option>
+</select>
+</li>
+       
+<li>Konsep sistem perlu dibatsi karena ...
+<select name="item3">
+<option value="">Pilih Jawaban</option>
+<option value="item3a">Bersifat kongkrit</option>
+<option value="item3b">Bersifat Abstrak</option>
+<option value="item3c">Cakupan terlalu luas</option>
+<option value="item3d">Semua Benar</option>
+</select>
+</li>
+      
+<li>Ciri sistem ialah ...
+<select name="item4">
+<option value="">Pilih Jawaban</option>
+<option value="item4a">Tak pernah berubah</option>
+<option value="item4b">Bermerek</option>
+<option value="item4c">Berbeda-beda</option>
+<option value="item4d">Saling terkait</option>
+</select>
+</li>
+
+<li>Sistem "feed back" maksudnya ialah  ...
+<select name="item5">
+<option value="">Pilih Jawaban</option>
+<option value="item5a">Semua Benar</option>
+<option value="item5b">Memberi Kisi-kisi</option>
+<option value="item5c">Memberi umpan balik</option>
+<option value="item5d">Memberi bocoran</option>
+</select>
+</li>
+
+<li>Sumber untuk memperoleh informasi ...
+<select name="item6">
+<option value="">Pilih Jawaban</option>
+<option value="item6a">Perusahaan</option>
+<option value="item6b">lingkungan</option>
+<option value="item6c">Kolega</option>
+<option value="item6d">Joint venture</option>
+</select>
+</li>
+
+<li>Apa maksud formulasi masalah ...
+<select name="item7">
+<option value="">Pilih Jawaban</option>
+<option value="item7a">Diorganisasikan</option>
+<option value="item7b">Agar Abstrak</option>
+<option value="item7c">Menuruti aturan</option>
+<option value="item7d">Semua Benar</option>
+</select>
+</li>
+
+<li>input-proses-output adalah prinsip ...
+<select name="item8">
+<option value="">Pilih Jawaban</option>
+<option value="item8a">Sistem berkas</option>
+<option value="item8b">Sistem File</option>
+<option value="item8c">Sistem Archieve</option>
+<option value="item8d">SIM</option>
+</select>
+</li>
+
+<li>Karakteristik komponen sistem mempengaruhi ...
+<select name="item9">
+<option value="">Pilih Jawaban</option>
+<option value="item9a">Semua Benar</option>
+<option value="item9b">Keshahihan</option>
+<option value="item9c">Speed</option>
+<option value="item9d">Integritas</option>
+</select>
+</li>
+
+<li>"Proses" dalam SIM menggambarkan kegiatan ...
+<select name="item10">
+<option value="">Pilih Jawaban</option>
+<option value="item10a">B dan C Benar</option>
+<option value="item10b">Terus-menerus</option>
+<option value="item10c">Mengubah input menjadi output</option>
+<option value="item10d">B dan C Salah</option>
+</select>
+</li>
+
+<li>Pembatasan pada sistem dimaksudkan untuk mendapat ...
+<select name="item11">
+<option value="">Pilih Jawaban</option>
+<option value="item11a">Fokus</option>
+<option value="item11b">Simpati</option>
+<option value="item11c">Empati</option>
+<option value="item11d">Sikon yang bagus</option>
+</select>
+</li>
+
+<li>Adanya pendekatan sistem menunjukan ...
+<select name="item12">
+<option value="">Pilih Jawaban</option>
+<option value="item12a">Kompleksitas</option>
+<option value="item12b">A dan D Benar</option>
+<option value="item12c">Cost</option>
+<option value="item12d">Pengembangan</option>
+</select>
+</li>
+
+<li>Semakin panjang urutan "feed back" pada sistem, semakin ...
+<select name="item13">
+<option value="">Pilih Jawaban</option>
+<option value="item13a">Sederhana informasi</option>
+<option value="item13b">Baik perolehan informasi</option>
+<option value="item13c">Tidak akurat informasi</option>
+<option value="item13d">Semua salah</option>
+</select>
+</li>
+
+<li>Prosesor (pengolah) disebut juga sebagai ... dalam SIM
+<select name="item14">
+<option value="">Pilih Jawaban</option>
+<option value="item14a">Orange Box</option>
+<option value="item14b">Green Box</option>
+<option value="item14c">Black box</option>
+<option value="item14d">Red Box</option>
+</select>
+</li>
+
+<li>Kelebihan sistem buatan  ...
+<select name="item15">
+<option value="">Pilih Jawaban</option>
+<option value="item15a">Manual</option>
+<option value="item15b">Terjangkau</option>
+<option value="item15c">Murah</option>
+<option value="item15d">Dapat diprediksi</option>
+</select>
+</li>
+
+<li>Kelemahan sistem buatan...
+<select name="item16">
+<option value="">Pilih Jawaban</option>
+<option value="item16a">Mudah</option>
+<option value="item16b">Terjangkau</option>
+<option value="item16c">Relatif Mahal</option>
+<option value="item16d">Murah</option>
+</select>
+</li>
+
+<li>Keunggulan sistem alami ...
+<select name="item17">
+<option value="">Pilih Jawaban</option>
+<option value="item17a">Ajeg</option>
+<option value="item17b">Mahal</option>
+<option value="item17c">Sulit</option>
+<option value="item17d">Semua Salah</option>
+</select>
+</li>
+
+<li>Kelemahan sistem alami ...
+<select name="item18">
+<option value="">Pilih Jawaban</option>
+<option value="item18a">Mahal</option>
+<option value="item18b">Singkat</option>
+<option value="item18c">Butuh waktu</option>
+<option value="item18d">Semua Benar</option>
+</select>
+</li>
+
+<li>Semua jenis sistem menginduk pada ...
+<select name="item19">
+<option value="">Pilih Jawaban</option>
+<option value="item19a">Sistem umum</option>
+<option value="item19b">Sistem utama</option>
+<option value="item19c">Sistem alami</option>
+<option value="item19d">Sistem buatan</option>
+</select>
+</li>
+
+<li>Untuk mempalajari SIM dengan baik, perlu dipelajari mengenai ...
+<select name="item20">
+<option value="">Pilih Jawaban</option>
+<option value="item20a">Sistem</option>
+<option value="item20b">sistem konseptual & empiris</option>
+<option value="item20c">Sistem lapangan</option>
+<option value="item20d">Alami</option>
+</select>
+</li>
+</pre>
+</ol>
+     
+     
+<p>Mohon, Refresh browser apabila Nilai belum termuat, lalu click kembali "Submit"!</p>     
+<input type="button" value="Submit" onclick="penilaian()">  
+<input type="button" value="Nilai" name="nilai" placeholder="Nilai Anda">
+<input type="hidden" name="score"/>
+
+
+<input type="submit" value="Send">
+    
+</form>
+     
+
+</body>
+</html>
