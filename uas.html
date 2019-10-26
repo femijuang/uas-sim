@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Home</title>
+    <title>UAS SIM</title>
     <meta charset="utf-8"/>
     <link rel="stylesheet" href="style.css"/>
-    <script src="engine.js" async></script>
+    <script src="enginesim.js" async></script>
 </head>
-<body>
-    
+<body oncontextmenu="return false">
+
+<div class="container">
+
 <form action="https://script.google.com/macros/s/AKfycbxnQ7IutIC2PeLbHM2E5gtz-8ODiULMnXpMqQkMHw/exec" method="POST" name="uts">
 
 <pre> 
@@ -25,9 +27,9 @@
 <li>Contoh klasifikasi sistem ...
 <ol class="subItem">
  <li>Berbayar</li>
+ <li>Buatan & Alami</li>
  <li>Gratis</li>
  <li>Trial</li>
- <li>Buatan & Alami</li>
 </ol>
 <input name="item1" type="text" placeholder="Jawaban...">
 </li>
@@ -42,11 +44,11 @@
 <input name="item2" type="text" placeholder="Jawaban...">
 </li>
        
-<li>Konsep sistem perlu dibatsi karena ...
+<li>Konsep sistem perlu dibatasi karena ...
 <ol class="subItem">
+<li>Cakupan terlalu luas</li>
 <li>Bersifat kongkrit</li>
 <li>Bersifat Abstrak</li>
-<li>Cakupan terlalu luas</li>
 <li>Semua Benar</li>
 </ol>
 <input name="item3" type="text" placeholder="Jawaban...">
@@ -54,10 +56,10 @@
       
 <li>Ciri sistem ialah ...
 <ol class="subItem">
+<li>Saling terkait</li>
 <li>Tak pernah berubah</li>
 <li>Bermerek</li>
 <li>Berbeda-beda</li>
-<li>Saling terkait</li>
 </ol>
 <input name="item4" type="text" placeholder="Jawaban...">
 </li>
@@ -74,8 +76,8 @@
 
 <li>Sumber untuk memperoleh informasi ...
 <ol class="subItem">
-<li>Perusahaan</li>
 <li>lingkungan</li>
+<li>Perusahaan</li>
 <li>Kolega</li>
 <li>Joint venture</li>
 </ol>
@@ -94,29 +96,29 @@
 
 <li>input-proses-output adalah prinsip ...
 <ol class="subItem">
+<li>SIM</li>
 <li>Sistem berkas</li>
 <li>Sistem File</li>
 <li>Sistem Archieve</li>
-<li>SIM</li>
 </ol>
 <input name="item8" type="text" placeholder="Jawaban...">
 </li>
 
 <li>Karakteristik komponen sistem mempengaruhi ...
 <ol class="subItem">
-<li>Semua Benar</li>
 <li>Keshahihan</li>
 <li>Speed</li>
 <li>Integritas</li>
+<li>Semua Benar</li>
 </ol>
 <input name="item9" type="text" placeholder="Jawaban...">
 </li>
 
 <li>"Proses" dalam SIM menggambarkan kegiatan ...
 <ol class="subItem">
-<li>B dan C Benar</li>
 <li>Terus-menerus</li>
 <li>Mengubah input menjadi output</li>
+<li>B dan C Benar</li>
 <li>B dan C Salah</li>
 </ol>
 <input name="item10" type="text" placeholder="Jawaban...">
@@ -145,8 +147,8 @@
 <li>Semakin panjang urutan "feed back" pada sistem, semakin ...
 <ol class="subItem">
 <li>Sederhana informasi</li>
-<li>Baik perolehan informasi</li>
 <li>Tidak akurat informasi</li>
+<li>Baik perolehan informasi</li>
 <li>Semua salah</li>
 </ol>
 <input name="item13" type="text" placeholder="Jawaban...">
@@ -166,8 +168,8 @@
 <ol class="subItem">
 <li>Manual</li>
 <li>Terjangkau</li>
-<li>Murah</li>
 <li>Dapat diprediksi</li>
+<li>Murah</li>
 </ol>
 <input name="item15" type="text" placeholder="Jawaban...">
 </li>
@@ -204,9 +206,9 @@
 
 <li>Semua jenis sistem menginduk pada ...
 <ol class="subItem">
-<li>Sistem umum</li>
 <li>Sistem utama</li>
 <li>Sistem alami</li>
+<li>Sistem umum</li>
 <li>Sistem buatan</li>
 </ol>
 <input name="item19" type="text" placeholder="Jawaban...">
@@ -215,9 +217,9 @@
 <li>Untuk mempalajari SIM dengan baik, perlu dipelajari mengenai ...
 <ol class="subItem">
 <li>Sistem</li>
-<li>sistem konseptual & empiris</li>
 <li>Sistem lapangan</li>
 <li>Alami</li>
+<li>sistem konseptual & empiris</li>
 </ol>
 <input name="item20" type="text" placeholder="Jawaban...">
 </li>
@@ -225,7 +227,7 @@
 </ol>
      
      
-<h2>Jika selesai, Mohon <span>Refresh browser</span>, kemudian click <span>"Submit"!</span></h2> 
+<h2>Jika selesai, click <span>"Submit"!</span></h2> 
 <h2>Setelah itu click <span>"send"</span>!</h2>  
 <input class="submitBtn" type="button" value="Submit" onclick="penilaian()">  
 <input type="hidden" name="score"/>
@@ -235,6 +237,7 @@
     
 </form>
      
-
+</div>
+     
 </body>
 </html>
